@@ -152,5 +152,5 @@ const Projects = () => {
   );
 };
 
-useGLTF.preload("public/models/board2.glb");
+useGLTF.preload("/models/board2.glb");
 export default Projects;

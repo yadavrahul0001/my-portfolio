@@ -4,7 +4,7 @@ import { useMemo } from 'react';
 
 const Items = (modelName, position, rotation) => {
 
-    const {scene} = useGLTF(`public/models/${modelName}.glb`)
+    const {scene} = useGLTF(`/models/${modelName}.glb`)
     const mesh = scene.children[0]
     const material = mesh.material
     const copiedScene = useMemo(() => mesh.clone(), [mesh]);
@@ -21,9 +21,9 @@ const Items = (modelName, position, rotation) => {
   )
 }
 
-useGLTF.preload('public/models/screen2.glb')
-useGLTF.preload('public/models/board2.glb')
-useGLTF.preload('public/models/wave.glb')
+useGLTF.preload('/models/screen2.glb')
+useGLTF.preload('/models/board2.glb')
+useGLTF.preload('/models/wave.glb')
 
 
 export default Items

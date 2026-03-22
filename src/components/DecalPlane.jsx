@@ -8,7 +8,7 @@ import { useRef } from "react";
 // import { useRef } from 'react';
 
 const DecalPlane = ({ position, rotation , decalPosition, decalScale , text, textFontSize, textRotation}) => {
-  const {scene} = useGLTF("public/models/wave.glb")
+  const {scene} = useGLTF("/models/wave.glb")
   const mesh = scene.children[0]
   const material = mesh.material
 

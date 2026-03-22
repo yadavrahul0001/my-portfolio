@@ -8,20 +8,20 @@ import { Image } from "@react-three/drei";
 const Hero3D = () => {
   return (
     <>
-    <Text position={[0,6.5,0]} scale={[0.3,0.3,1]} font="public\fonts\Aladin-Regular.ttf" color="blue">
+    <Text position={[0,6.5,0]} scale={[0.3,0.3,1]} font="fonts/Aladin-Regular.ttf" color="blue">
         Hi, I'm Rahul
       </Text>
     <Text
         position={[-3.6, 3.67, 1]}
         scale={[1.1,1.4, 1]}
-        font="public\fonts\HennyPenny-Regular.ttf" 
+        font="fonts/HennyPenny-Regular.ttf" 
         color="blue">
         Creative 
       </Text>
       <Text
         position={[3.2, 3.67, 1]}
         scale={[1,1.3, 1]}
-        font="public\fonts\HennyPenny-Regular.ttf" 
+        font="fonts/HennyPenny-Regular.ttf" 
         color="blue">
          Developer
       </Text>
